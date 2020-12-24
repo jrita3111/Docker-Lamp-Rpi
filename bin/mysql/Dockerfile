@@ -1,1 +1,1 @@
-FROM ebspace/armhf-mysql
+FROM mysql 5.7
