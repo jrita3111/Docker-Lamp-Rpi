@@ -1,4 +1,4 @@
-#  LAMP stack built with Docker Compose
+#  LAMP stack built with Docker Compose for a Rasberry Pi
 
   
 
@@ -31,10 +31,10 @@ As of now, we have several different PHP versions. Use appropriate php version a
 * Run the `docker-compose up -d`.
 
 ```shell
-git clone https://github.com/harshalone/docker-compose-lamp.git
+git clone https://github.com/jrita3111/Docker-Lamp-Rpi.git
 cd docker-compose-lamp/
 cp sample.env .env
-// modify sample.env as needed
+
 docker-compose up -d
 // visit localhost
 ```
@@ -147,7 +147,7 @@ May differ for PHP Verions <7.x.x
 
 phpMyAdmin is configured to run on port 8080. Use following default credentials.
 
-http://localhost:8080/  
+http://localhost:8090/phpmyadmin
 username: root  
 password: tiger
 
