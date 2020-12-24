@@ -1,4 +1,7 @@
 #  LAMP stack built with Docker Compose for a Rasberry Pi
+Images have been replaced with images suitable to run on the PI, some may be outdated.
+There are ways to create your own using buildx which would be better for the latest versions and security 
+(https://www.docker.com/blog/multi-arch-images/)
 
   
 
